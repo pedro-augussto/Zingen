@@ -15,6 +15,7 @@ a.social {
             --bg-img: url(../assets/icons/tiktok-hover.svg);
         }
     }
+
     &[aria-label="instagram"] {
         --bg-img: url(../assets/icons/instagram.svg);
         
@@ -22,6 +23,7 @@ a.social {
             --bg-img: url(../assets/icons/instagram-hover.svg);
         }
     }
+
     &[aria-label="twitter"] {
         --bg-img: url(../assets/icons/twitter.svg);
         
@@ -29,6 +31,7 @@ a.social {
             --bg-img: url(../assets/icons/twitter-hover.svg);
         }
     }
+    
     &[aria-label="discord"] {
         --bg-img: url(../assets/icons/discord.svg);
         

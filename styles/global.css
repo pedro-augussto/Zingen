@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+} 
+
 *{
     margin: 0;
     padding: 0;
@@ -8,11 +14,6 @@
 }
 
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-} 
 
 :root {
     --bg-color: #09090B;
@@ -98,6 +99,11 @@ a:hover {
 
 ul[role="list"] {
     list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
 }
 
 @media (with >= 80em){
